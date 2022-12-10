@@ -42,19 +42,3 @@ There are 2 elements to render to animate the game: the canvas and the car.
 The game is refreshed 60 times per second with the use of setInterval method. Both the canvas and the car are refreshed in the same file (useCar hook), as it is not possible to have 2 intervals running concurrently in the same component.
 
 The useWindows hook resizes the window on every window resize.
-
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FBenjamin-Roger%2F2d-car-game.git)
-
-
-
-
-## Credits
-
-<a href="https://www.freepik.com/vectors/car">Car vector created by pch.vector - www.freepik.com</a> 
-[Juha Lindstedt](https://github.com/pakastin/car) for the car physics and canvas logic
